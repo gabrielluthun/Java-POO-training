@@ -5,7 +5,7 @@ public class Bank {
     public Bank(String name) {
         this.name = name;
     }
-
+// On utilise des génériques pour définir les types des comptes source et cible
     public <T, S> void transfert(Account<T> sourceAccount, Account<S> targetAccount, int amount) {
 
        if (sourceAccount.getAmount() >= amount) {
