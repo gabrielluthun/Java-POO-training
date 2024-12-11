@@ -4,6 +4,7 @@ public class Main {
         Account<Character> myAccount = new Account<> ("Gabriel", 1000, '€');
         myAccount.showBalance();
 
+        // Type "Character" car on a défini le type de la monnaie dans Account.java comme étant un Character
         Account <Character>otherAccount = new Account<> ("Alice", 2000, '€');
         otherAccount.showBalance();
 
